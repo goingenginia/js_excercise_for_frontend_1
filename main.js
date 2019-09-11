@@ -11,28 +11,28 @@ console.log(title);
  *   - querySelectorを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const itemcontainer = document.querySelector("#item-container")
-console.log(itemcontainer);
+const itemContainer = document.querySelector("#item-container")
+console.log(itemContainer);
 
 /**
  * 課題3: li要素を全て取得する
  *   - console.logで取得したDOMの中身を確認する
  */
-const li = document.getElementsByTagName("li")
-console.log(li);
+const liElements = document.getElementsByTagName("li")
+console.log(liElements);
 
 /**
  * 課題4: class値が 'item' の要素を全て取得する
  *   - getElementsByClassNameを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const firstitem = document.getElementsByClassName("item")
-console.log(firstitem);
+const firstItems = document.getElementsByClassName("item")
+console.log(firstItems);
 
 /**
  * 課題5: class値が 'item' の要素を全て取得する
  *   - querySelectorAllを使う
  *   - console.logで取得したDOMの中身を確認する
  */
-const seconditem = document.querySelectorAll(".item")
-console.log(seconditem);
+const secondItems = document.querySelectorAll(".item")
+console.log(secondItems);
